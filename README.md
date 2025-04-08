@@ -9,8 +9,8 @@ for sending requests to backends,
 
 ab -n 1000 -c 100 http://localhost:8080/
 
-Grafana: localhost:3001
-Prometheus: localhost:9091
+Grafana: http://localhost:3001
+Prometheus: http://localhost:9091
 
 In grafana if you have to create a new data source, prometheus url will be http://prometheus:9090/
 
