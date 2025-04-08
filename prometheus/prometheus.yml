@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: 'flask_backends'
+    static_configs:
+      - targets: ['backend1:5000', 'backend2:5000', 'backend3:5000']
+
