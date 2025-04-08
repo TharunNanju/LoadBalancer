@@ -1,4 +1,9 @@
 # LoadBalancer
+The base form of this project is meant to create 3 backend servers hosted in docker containers, the requests sent to these backends is balanced by the Nginx load balancer and then visualised on grafana using prometheus
+
+Current work:
+Attempting to make a VPN server to allow the load balancer to connect to any of the backends on any machine remotely, without the need for port forwarding
+
 for running the project CD into the directory and then run the following command,
 
 docker-compose up --build
