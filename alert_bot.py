@@ -14,7 +14,6 @@ twilio_whatsapp_number = os.getenv('TWILIO_WHATSAPP_NUMBER')
 your_whatsapp_number = os.getenv('YOUR_WHATSAPP_NUMBER')
 
 client = Client(account_sid, auth_token)
-
 # === Your Backends ===
 # Use IPs or Tailscale IPs based on your setup
 backends = {
